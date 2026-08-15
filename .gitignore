@@ -1,13 +1,17 @@
-# Python virtual environment
+# Python / Virtual Environment
 venv/
 __pycache__/
 *.pyc
-
-# Environment variables & DBs
-.env
-*.db
 .pytest_cache/
 
-# IDE files
+# Environment variables
+.env
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Database / IDE
+*.sqlite3
 .vscode/
 .idea/
